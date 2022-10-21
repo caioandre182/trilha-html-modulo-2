@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="atendimento.html">Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="image/contatos.png" width="1000px" height="250px">
+            </div>
+    
+            <div class="content">
+                <h2>Contatos</h2>
+                <p>
+                    Telefone : (11) 99999-1111<br>
+                    WhatsApp : (11) 95432-1010<br>
+                    Email    : clinicaquiro@gmail.com<br>
+                    Endereço : Rua Inventada, 2000 Bairro X , São Paulo - São Paulo
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29256.69338159898!2d-46.64986933679385!3d-23.565330419560997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59a00cc9896b%3A0x4d7fa8becba4e40d!2sLiberdade%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1666325925376!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <h3>Entre em contato com nós:</h3>
+                <form action="/contatos" method="post">
+                    <div>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name"/>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email"/>
+                    </div>
+                    <div>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto"/>
+                    </div>
+                    <div>
+                        <label for="message">Mensagem:</label>
+                        <textarea name="message"></textarea>
+                    </div>
+                    <center>
+                        <div class="button">
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button>
+                        </div>
+                    </center>
+                </form>
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <p>© Todos os direitos reservados.</p><br>
+                <label><b>Contato:</b> (11) 99999-1111 </label><br>
+                <label><b>WhatsApp:</b> (11) 95432-1010 </label><br>
+                <label><b>Endereço:</b>image.png Rua Inventada, 2000 Bairro X , São Paulo - São Paulo</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
